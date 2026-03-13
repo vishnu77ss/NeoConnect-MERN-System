@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 // Import the routes
 const authRoutes = require('./routes/authRoutes');
 const caseRoutes = require('./routes/caseRoutes');
-const pollRoutes = require('./routes/pollRoutes'); // Added pollRoutes import
+const pollRoutes = require('./routes/pollRoutes');
 
 // Load environment variables from the root .env
 dotenv.config({ path: '../.env' });
@@ -14,13 +14,21 @@ dotenv.config({ path: '../.env' });
 const app = express();
 
 // Middleware
-app.use(cors());
+// Updated CORS to allow your specific Vercel domain
+app.use(cors({
+    origin: [
+        "http://localhost:3000", 
+        "https://neo-connect-mern-system.vercel.app"
+    ],
+    credentials: true
+}));
+
 app.use(express.json()); // To parse JSON bodies
 
 // Use the routes
 app.use('/api/auth', authRoutes);
 app.use('/api/cases', caseRoutes);
-app.use('/api/polls', pollRoutes); // Added pollRoutes middleware
+app.use('/api/polls', pollRoutes);
 
 // Basic Route for Testing
 app.get('/', (req, res) => {

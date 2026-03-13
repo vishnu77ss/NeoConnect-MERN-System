@@ -1,6 +1,11 @@
 # 🏛️ NeoConnect - Internal Feedback & Grievance System
+### 🔗 [Live Demo: NeoConnect Web App](https://neo-connect-mern-system-4bwwtjzoq.vercel.app/)
 
-NeoConnect is a comprehensive full-stack solution designed for educational institutions to bridge the gap between staff and management. It streamlines the grievance process with automated tracking, institutional polling, and data-driven analytics.
+![Vercel Deployment](https://img.shields.io/badge/Frontend-Live-brightgreen)
+![Render Deployment](https://img.shields.io/badge/Backend-Live-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+**NeoConnect** is a comprehensive full-stack solution designed for educational institutions to bridge the gap between staff and management. It streamlines the grievance process with automated tracking, institutional polling, and data-driven analytics.
 
 ## 📸 App Preview
 

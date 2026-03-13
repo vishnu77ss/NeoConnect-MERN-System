@@ -1,9 +1,8 @@
 # 🏛️ NeoConnect - Internal Feedback & Grievance System
-### 🔗 [Live Demo: NeoConnect Web App](https://neo-connect-mern-system-4bwwtjzoq.vercel.app/)
-
-![Vercel Deployment](https://img.shields.io/badge/Frontend-Live-brightgreen)
-![Render Deployment](https://img.shields.io/badge/Backend-Live-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+## 🌐 Deployment
+* **Frontend:** Hosted on [Vercel](https://neo-connect-mern-system-4bwwtjzoq.vercel.app/)
+* **API/Backend:** Hosted on [Render](https://neoconnect-api.onrender.com)
+> **Note:** The backend is hosted on a free tier (Render). Please allow 30-50 seconds for the initial load if the site has been inactive.
 
 **NeoConnect** is a comprehensive full-stack solution designed for educational institutions to bridge the gap between staff and management. It streamlines the grievance process with automated tracking, institutional polling, and data-driven analytics.
 
